@@ -1,17 +1,22 @@
 body {
-    background-color: red;
+    background-color: #AF0000;
 }
 
 .text-container {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .navbar {
-    background-color: darkblue;
+    background-color: #00008B;
 }
 
 .nav-item {
     text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 /*
