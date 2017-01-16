@@ -19,6 +19,11 @@ nav a {
     text-decoration: none;
 }
 
+jumbotron a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 /*
 a {
 	color: red;
