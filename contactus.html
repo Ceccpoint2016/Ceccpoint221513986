@@ -11,6 +11,27 @@
   </head>
 
   <body>
+    
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <style>.ig-b- { display: inline-block; }
+      .ig-b- img { visibility: hidden; }
+      .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+      .ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+      .ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }
+    </style>
+    
+    <script src="https://apis.google.com/js/platform.js"></script>
 
     <nav class="navbar navbar-dark bg-inverse">
       <ul class="nav navbar-nav">
@@ -35,24 +56,14 @@
       <div class="container text-container">
         <div class="container">
           <h3>Contact us: Become a writer! Or just ask us a few questions.</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_AKN5VOP6ATuDaWgukWbA554CtfKN3u1tMFSxNVPEkhWpbw/viewform" class=" btn btn-primary" role="button">Submit Article</a>
-            </div>
-            <div class="col-md-6">
-              <a href="mailto:ceccpoint@gmail.com" class="btn btn-primary" role="button">Email Us</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <a href="https://www.facebook.com/ceccpoint" class="btn btn-primary" role="button">Facebook</a>
-            </div>
-            <div class="col-md-4">
-              <a href="https://www.twitter.com/realceccpoint" class="btn btn-primary" role="button">Twitter</a>
-            </div>
-            <div class="col-md-4">
-              <a href="https://www.instagram.com/Ceccpoint/?hl=en" class="btn btn-primary" role="button">Instagram</a>
-            </div>
+          <div class="container">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_AKN5VOP6ATuDaWgukWbA554CtfKN3u1tMFSxNVPEkhWpbw/viewform" class=" btn btn-primary" role="button">Submit Article</a>
+            <a href="https://twitter.com/realceccpoint" class="twitter-follow-button" data-show-count="false">Follow @realceccpoint</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="mailto:ceccpoint@gmail.com" class="btn btn-primary" role="button">Email Us</a>
+            <a href="https://twitter.com/realceccpoint" class="twitter-follow-button" data-show-count="false">Follow @realceccpoint</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="fb-follow" data-href="https://www.facebook.com/ceccpointnews" data-layout="standard" data-size="small" data-show-faces="true"></div>
+            <div class="g-ytsubscribe" data-channelid="UCMEsxqhlL3PXfLN8J2a2NGQ" data-layout="default" data-count="default"></div>
+            <a href="https://www.instagram.com/kcecchine/?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
           </div>
         </div>
         
